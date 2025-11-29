@@ -11081,7 +11081,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KB54PNC"
+		(property "MPN" "CL05B105KQ5NQNC"
 			(at 69.85 85.09 0)
 			(effects
 				(font
@@ -11543,7 +11543,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A475MQ8NNNC"
+		(property "MPN" "CC0402MRX5R5BB475"
 			(at 55.88 60.96 0)
 			(effects
 				(font

@@ -7424,6 +7424,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/f3d86fab-5744-45a3-a365-b0c0c36d0bf2"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7433,7 +7439,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "3b4eabf9-302e-4643-8b95-0d2e92002452")
 		(property "Reference" "U14"
 			(at 229.87 93.3449 0)
@@ -7921,6 +7927,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/f3d86fab-5744-45a3-a365-b0c0c36d0bf2"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7999,6 +8011,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/f3d86fab-5744-45a3-a365-b0c0c36d0bf2"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8008,7 +8026,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(dnp yes)
+		(dnp no)
 		(uuid "532dad4a-a0d6-4738-8bbc-d09abcfebcaf")
 		(property "Reference" "SW11"
 			(at 87.884 146.05 90)
@@ -8073,6 +8091,12 @@
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/83b47a1d-beff-4fad-8dc4-09477bd5c4c9"
 					(reference "SW11")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/f3d86fab-5744-45a3-a365-b0c0c36d0bf2"
+					(reference "SW?")
 					(unit 1)
 				)
 			)
@@ -8154,6 +8178,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/f3d86fab-5744-45a3-a365-b0c0c36d0bf2"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8229,6 +8259,12 @@
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/83b47a1d-beff-4fad-8dc4-09477bd5c4c9"
 					(reference "SW16")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/f3d86fab-5744-45a3-a365-b0c0c36d0bf2"
+					(reference "SW?")
 					(unit 1)
 				)
 			)
@@ -8310,6 +8346,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/f3d86fab-5744-45a3-a365-b0c0c36d0bf2"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8385,6 +8427,12 @@
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591/83b47a1d-beff-4fad-8dc4-09477bd5c4c9"
 					(reference "SW14")
+					(unit 1)
+				)
+			)
+			(project "keyboard"
+				(path "/f3d86fab-5744-45a3-a365-b0c0c36d0bf2"
+					(reference "SW?")
 					(unit 1)
 				)
 			)
@@ -8466,6 +8514,12 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/f3d86fab-5744-45a3-a365-b0c0c36d0bf2"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8544,6 +8598,18 @@
 					(unit 1)
 				)
 			)
+			(project "keyboard"
+				(path "/f3d86fab-5744-45a3-a365-b0c0c36d0bf2"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

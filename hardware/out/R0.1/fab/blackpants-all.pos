@@ -1,4 +1,4 @@
-### Footprint positions - created on 2025-09-18T14:50:11+0200 ###
+### Footprint positions - created on 2025-09-19T16:13:17+0200 ###
 ### Printed by KiCad version 9.0.4
 ## Unit = mm, Angle = deg.
 ## Side : All
@@ -12,7 +12,7 @@ C5           10uF                         C_0603_1608Metric                     
 C6           100nF                        C_0402_1005Metric                                        80.1500  -114.3000  -90.0000  bottom
 C7           1uF                          C_0402_1005Metric                                        70.3500  -111.3800   90.0000  bottom
 C8           100nF                        C_0402_1005Metric                                        79.2200  -110.2000    0.0000  bottom
-C9           100nF                        C_0402_1005Metric                                        80.0500  -116.9500  -90.0000  bottom
+C9           100nF                        C_0402_1005Metric                                        80.7800  -115.9000    0.0000  bottom
 C10          100nF                        C_0402_1005Metric                                        71.0000  -119.0000  180.0000  bottom
 C11          100nF                        C_0402_1005Metric                                        80.3300  -111.7625    0.0000  bottom
 C12          4.7uF                        C_0402_1005Metric                                        73.0900   -94.3200   90.0000  bottom
@@ -76,7 +76,7 @@ R4           5.1K                         R_0402_1005Metric                     
 R5           1M                           R_0402_1005Metric                                        84.3700   -99.3100   90.0000  bottom
 R6           100K                         R_0402_1005Metric                                        76.3000   -89.1000  -90.0000  bottom
 R7           100K                         R_0402_1005Metric                                        76.3000   -91.1000  -90.0000  bottom
-R8           12K_1%                       R_0402_1005Metric                                        77.9900  -101.2000    0.0000  bottom
+R8           12K                          R_0402_1005Metric                                        77.9900  -101.2000    0.0000  bottom
 R9           100K                         R_0402_1005Metric                                        75.7000   -94.2000  -90.0000  bottom
 R10          5.1K                         R_0402_1005Metric                                        73.3000   -91.7000  -90.0000  bottom
 R11          5.1K                         R_0402_1005Metric                                       109.2800   -52.0900  180.0000  bottom
