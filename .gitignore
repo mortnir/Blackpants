@@ -2,4 +2,5 @@
 .venv/
 .gitlab-ci-local/
 .vscode/
+img/
 .idea/
