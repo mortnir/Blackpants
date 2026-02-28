@@ -1,22 +1,23 @@
 #!/bin/bash
 
-VER="r1"
+VER="R1.0"
 PRJ="blackpants"
 PRJDIR="hardware"
 
 cd $PRJDIR
-mkdir out/$VER  2>/dev/null
-rm -r out/$VER/ 2>/dev/null
-mkdir out/$VER/ 2>/dev/null
-mkdir out/$VER/fab/ 2>/dev/null
+mkdir out/"$VER"  2>/dev/null
+rm -r out/"$VER"/ 2>/dev/null
+mkdir out/"$VER"/ 2>/dev/null
+mkdir out/"$VER"/fab/ 2>/dev/null
 
-kikit fab pcbway $PRJ.kicad_pcb --schematic $PRJ.kicad_sch --assembly out/$VER/fab/
-kicad-cli sch export pdf $PRJ.kicad_sch -o out/$VER/$PRJ.pdf
-kicad-cli pcb export step $PRJ.kicad_pcb -o out/$VER/$PRJ.step
+kikit fab pcbway $PRJ.kicad_pcb --schematic $PRJ.kicad_sch --assembly out/"$VER"/fab/
+kicad-cli sch export pdf $PRJ.kicad_sch -o out/"$VER"/$PRJ.pdf
+kicad-cli pcb export step $PRJ.kicad_pcb -o out/"$VER"/$PRJ.step
 
-rm out/$VER/fab/gerber.zip
-cd out/$VER/
+rm out/"$VER"/fab/gerber.zip
+cd out/"$VER"/
 
-OUT=$PRJ\_$VER.zip
+OUT=$PRJ\_"$VER".zip
 zip -r $OUT fab/*
 echo Created release: $VER $OUT
+

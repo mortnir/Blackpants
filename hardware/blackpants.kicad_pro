@@ -76,27 +76,7 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|113590000|98300000|7bc710d2-949e-4495-8e8b-da5816779d25|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|115350000|49760000|0d17f4c1-bb53-4ff9-a56f-745c9a89046c|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|36410000|98300000|d23f575b-295f-4340-9847-b6ee60fbfc99|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|57225000|83000000|91a49ccb-db91-4754-a7f5-9aa88539c3d2|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|58500000|177337500|15fb0ed1-86d1-4f11-9612-5b0e6404bdbf|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|66565000|110530000|cf2628c3-7dc6-49a0-b560-01beee25db1e|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -237,10 +217,6 @@
         ],
         [
           "silk_overlap|31632522|163337300|a8f56f99-63d7-4385-9d22-775cb87bd439|eb80a3cb-85aa-4c90-8b25-1fd8734eb454",
-          ""
-        ],
-        [
-          "silk_overlap|31798522|164023184|34b99c1c-760f-4c0b-aaec-42588ff8feb6|a8f56f99-63d7-4385-9d22-775cb87bd439",
           ""
         ],
         [
@@ -1056,7 +1032,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "out/R0.1/fab/blackpants.csv",
+    "bom_export_filename": "out/R1.0/fab/blackpants.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

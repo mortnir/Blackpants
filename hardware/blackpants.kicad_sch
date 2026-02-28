@@ -4085,6 +4085,12 @@
 		(uuid "cf09d266-aae7-4a02-8d3b-437f32b3da3b")
 	)
 	(junction
+		(at 102.87 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e49e53e1-a9f1-4cec-b64b-c70ce78020d6")
+	)
+	(junction
 		(at 180.34 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4448,16 +4454,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 83.82) (xy 113.03 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c35a688-05dc-4a60-87e3-b7b2599cb7f3")
-	)
-	(wire
-		(pts
 			(xy 115.57 111.76) (xy 111.76 111.76)
 		)
 		(stroke
@@ -4548,6 +4544,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 88.9) (xy 102.87 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f3d05c-fbcc-4347-95d1-75ed1e614dc9")
+	)
+	(wire
+		(pts
 			(xy 115.57 144.78) (xy 111.76 144.78)
 		)
 		(stroke
@@ -4608,7 +4614,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 93.98) (xy 115.57 93.98)
+			(xy 100.33 93.98) (xy 102.87 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4745,6 +4751,16 @@
 			(type default)
 		)
 		(uuid "4ba666f9-48dd-4659-8c2b-31133b3f0408")
+	)
+	(wire
+		(pts
+			(xy 102.87 74.93) (xy 102.87 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3121f8-8151-4e35-a380-ed5f1c11bb4e")
 	)
 	(wire
 		(pts
@@ -4956,6 +4972,16 @@
 		)
 		(uuid "63770d30-edd9-4c00-8c66-b993db4604be")
 	)
+	(wire
+		(pts
+			(xy 110.49 83.82) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65dedb9c-415d-4a57-b562-8beace42c8d3")
+	)
 	(bus
 		(pts
 			(xy 203.2 101.6) (xy 215.9 101.6)
@@ -4978,7 +5004,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 93.98) (xy 96.52 93.98)
+			(xy 92.71 93.98) (xy 91.44 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5055,16 +5081,6 @@
 			(type default)
 		)
 		(uuid "76dc7333-baea-456b-a8e8-5b99092467c6")
-	)
-	(wire
-		(pts
-			(xy 88.9 83.82) (xy 87.63 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78b494d3-8c50-4278-bb77-34f7f65f01b8")
 	)
 	(wire
 		(pts
@@ -5255,16 +5271,6 @@
 			(type default)
 		)
 		(uuid "9c385ca1-964b-48e0-8524-cfa16dca357a")
-	)
-	(wire
-		(pts
-			(xy 87.63 83.82) (xy 87.63 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0b2fa16-65e3-4eca-8084-08d0d1deab6f")
 	)
 	(wire
 		(pts
@@ -5758,6 +5764,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 93.98) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e38db256-0d81-419f-8734-6d9eccde2cb3")
+	)
+	(wire
+		(pts
 			(xy 146.05 99.06) (xy 149.86 99.06)
 		)
 		(stroke
@@ -5798,7 +5814,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 93.98) (xy 96.52 96.52)
+			(xy 91.44 93.98) (xy 91.44 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6057,12 +6073,12 @@
 		(uuid "322cc09e-beaf-41a5-8ce6-8a014bd11e15")
 	)
 	(label "nRST"
-		(at 104.14 83.82 0)
+		(at 110.49 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "352fb8aa-b379-40b7-ba43-f70138f0e487")
 	)
@@ -6794,6 +6810,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 96.52 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10be33e7-1a33-4e8b-b750-233274a8579e")
+		(property "Reference" "R33"
+			(at 96.52 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 96.52 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 96.52 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 96.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 96.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab0a9394-2d93-456b-a01a-b3d8f6f34d5b")
+		)
+		(pin "1"
+			(uuid "97d8b9bd-4106-4be4-be32-f60693eb89ee")
+		)
+		(instances
+			(project "blackpants"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 154.94 128.27 0)
 		(unit 1)
@@ -7127,7 +7228,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 96.52 0)
+		(at 91.44 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7136,7 +7237,7 @@
 		(fields_autoplaced yes)
 		(uuid "4acc0b10-a3e1-4756-bbaa-54e412c164d1")
 		(property "Reference" "#PWR04"
-			(at 96.52 102.87 0)
+			(at 91.44 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7145,7 +7246,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 101.6 0)
+			(at 91.44 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7154,7 +7255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 96.52 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7163,7 +7264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 96.52 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,7 +7273,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 96.52 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8823,16 +8924,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 93.98 83.82 0)
+		(at 102.87 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9f48dd82-ce71-4185-9b80-a2e039885242")
 		(property "Reference" "SW1"
-			(at 93.98 76.2 0)
+			(at 98.044 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8840,15 +8940,16 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 93.98 78.74 0)
+			(at 97.79 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
-			(at 93.98 78.74 0)
+			(at 97.79 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8857,7 +8958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 78.74 0)
+			(at 97.79 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,7 +8967,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 93.98 83.82 0)
+			(at 102.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8875,7 +8976,7 @@
 			)
 		)
 		(property "MPN" "KSC741JLFS"
-			(at 93.98 83.82 0)
+			(at 102.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9419,73 +9520,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1314a6b-860f-423c-a918-7ee02dc491f9")
-		(property "Reference" "#PWR09"
-			(at 87.63 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0cb3763d-e305-4630-9d04-34583b98f8ec")
-		)
-		(instances
-			(project "badgeCarrierCard"
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 138.43 20.32 0)
 		(unit 1)
@@ -9994,6 +10028,71 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 102.87 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea0ce30f-a54c-489a-8f8e-252739e2aba1")
+		(property "Reference" "#PWR09"
+			(at 102.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 102.87 71.4281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "441f4768-8dbd-41e9-a83a-2715e726015f")
+		)
+		(instances
+			(project "blackpants"
+				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 113.03 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10140,74 +10239,6 @@
 			(project "badgeCarrierCard"
 				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 101.6 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "f93c467d-416f-442a-aab9-6337f1261d16")
-		(property "Reference" "JP1"
-			(at 101.6 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 101.6 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
-			(at 101.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 101.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ffc8d21-5711-4db7-81ee-fa84a8ec7f66")
-		)
-		(pin "2"
-			(uuid "c5fbfb87-4a55-490a-bbef-b21d88070f5f")
-		)
-		(instances
-			(project ""
-				(path "/d0a98fce-b133-4503-8f8a-83b2a1eed591"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
